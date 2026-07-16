@@ -16,6 +16,7 @@ Expected failure:
 ```text
 GraphTile DirectedEdge index out of bounds: 771621,3,139 directededgecount= 14
 HTTP 500
+REPRODUCED
 ```
 
 The script uses the official image:
