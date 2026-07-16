@@ -28,6 +28,8 @@ sha256:3d7a08f7e78b356ee873b61711b743ad81bcc114b0ca5731217da8bba6ba39d1
 
 The GTFS feed contains two stops, two trips, and one rail route. It has no `shapes.txt`. MobilityData GTFS Validator 8.0.1 reports zero errors and one metadata warning.
 
+`timezones.sqlite` contains one synthetic `Asia/Shanghai` polygon around the fixture. It prevents the scripted image from downloading the full timezone-boundary dataset during reproduction.
+
 ## Data attribution
 
 `changchun-repro.osm.pbf` is a small extract derived from the Geofabrik Jilin OpenStreetMap extract downloaded on 2026-06-23.

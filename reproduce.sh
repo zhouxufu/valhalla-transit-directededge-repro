@@ -17,6 +17,7 @@ trap cleanup EXIT
 rm -rf "${DATA_DIR}"
 mkdir -p "${DATA_DIR}"
 cp "${SCRIPT_DIR}/changchun-repro.osm.pbf" "${DATA_DIR}/"
+cp "${SCRIPT_DIR}/timezones.sqlite" "${DATA_DIR}/"
 
 docker run -d \
   --name "${CONTAINER}" \
