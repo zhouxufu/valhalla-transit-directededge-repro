@@ -1,0 +1,3 @@
+stop_id,stop_name,stop_lat,stop_lon,location_type
+s1,Synthetic West,43.767374,125.440436,0
+s2,Synthetic East,43.767374,125.460436,0

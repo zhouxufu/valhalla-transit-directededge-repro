@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+estate-gis-service,https://example.com,zh,20260701,20261231,ped-connector-v1
